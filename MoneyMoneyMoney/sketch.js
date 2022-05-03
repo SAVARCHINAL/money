@@ -585,7 +585,7 @@ class Walkscreen5Room extends PNGRoom {
     // this calls PNGRoom.draw()
     super.draw();
 
-    drawSprite(this.npc4.sprite);
+    drawSprite(this.npc8.sprite);
     this.npc8.displayInteractPrompt(playerAvatar);
 
     // Add your code here
