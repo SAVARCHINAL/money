@@ -129,7 +129,10 @@ class Avatar  {
   drawLabel() {
     textSize(12);
     fill(240);
+    textFont("Auster, sans-serif");
+    textWrap(WORD);
     text(this.name, this.sprite.position.x + 20, this.sprite.position.y + 10 );
+    
   }
 }
 
@@ -156,6 +159,7 @@ class NPC extends Avatar {
     this.interactWithMeMessage = 'Press SPACE to interact'; 
     this.displayMessage = this.interactWithMeMessage;
     this.img = loadImage(pngPath);
+ 
 
     this.promptX = 0;
     this.promptY = -50; 
@@ -223,12 +227,19 @@ class NPC extends Avatar {
 
   // MODIFY THIS - drawing of the prompt
   drawPrompt() {
-      fill('white');
+      fill('black');
       textSize(14);
+      textFont("Auster, sans-serif");
       
-      textAlign(CENTER);
       
-      text(this.displayMessage, this.sprite.position.x + this.promptX, this.sprite.position.y + this.promptY);
+      
+      
+  textAlign(CENTER);
+  
+      text(this.displayMessage, this.sprite.position.x + this.promptX+20, this.sprite.position.y + this.promptY, 150,310);
+      
+      
+      
   }
 
   // Continues the conversation with an NPC through the interaction array.
