@@ -1,4 +1,7 @@
-
+//Savannah Archinal 
+// 2D Adventure Game 
+// created with p5 and p5.js libraries 
+//Money Money Money
 
 // adventure manager global  
 var adventureManager;

@@ -10,4 +10,4 @@ ID,StateName,ClassName,PNGFilename,CollisionFilename
 8,Walkscreen6,PNGRoom,assets/walkscreen6.png,assets/walkscreen6.csv
 9,Gameover,GameOverRoom,assets/gameover.png,
 10,Mini1,MiniRoom1,assets/minigame1_dirt.png,
-11,Mini2,PNGRoom,assets/minigame2.png,assets/minigame2.0.csv
+11,Mini2,PNGRoom,assets/minigame2.png,assets/mini.csv
